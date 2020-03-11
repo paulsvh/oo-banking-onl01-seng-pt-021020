@@ -12,7 +12,9 @@ class BankAccount
     @balance += 1000
   end
 
-
+  def display_balance
+    "Your balance is $#{self.balance}."
+  end
 
 
 
